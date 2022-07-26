@@ -1,22 +1,3 @@
-# 安装
-
-```
-npm install --save-dev  @2345mfe/read-excel-json
-```
-
-# 使用
-
-```
-import { ReadExcel2Json } from './index';
-
-const radExcel2Json = new ReadExcel2Json()
-radExcel2Json('./excel', './excel/data.json')
-
-```
-
-# excel输出json结构
-
-```
 {
     "data.json": [],
     "demo.xlsx": [
@@ -34,4 +15,3 @@ radExcel2Json('./excel', './excel/data.json')
         }
     ]
 }
-```
